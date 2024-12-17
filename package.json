@@ -1,0 +1,21 @@
+{
+	"name": "redis-catching-server",
+	"version": "1.0.0",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon server.js"
+	},
+	"keywords": [],
+	"author": "Meghasrivardhan Pulakhandam",
+	"license": "ISC",
+	"description": "Redis with nodeJS project for Database Systems",
+	"devDependencies": {
+		"axios": "^1.7.9",
+		"cors": "^2.8.5",
+		"express": "^4.21.2",
+		"nodemon": "^3.1.7",
+		"pg": "^8.13.1",
+		"redis": "^3.1.2"
+	}
+}
